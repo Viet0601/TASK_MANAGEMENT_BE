@@ -3,7 +3,6 @@ import userModel from "../model/userModel.js";
 import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
-import { message } from "antd";
 import statisticsModel from "../model/statisticsModel.js";
 dotenv.config();
 const generateAccessToken = (data) => {
